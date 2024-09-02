@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    background: #273549;
+    color: white;
+    width: 550px;
+    height: 550px;
+    top: 64px;
+    left: 62px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+h1 {
+    width: 354px;
+    height: 80px;
+    margin-top: 115px;
+    margin-left: 52px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    size: 40px;
+}
+
+.header-green {
+    color: #55F991;
+}
+
+p {
+    width: 372px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 52px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #D5D4D8;
+}
+
+#pass-btn {
+    display: flex;
+    width: 191px;
+    height: 42px;
+    margin-top: 51px;
+    margin-left: 52px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border-radius: 6px;
+    border: transparent;
+    opacity: 0px;
+    background-color: #10B981;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.line-separetor {
+    width: 446px;
+    height: 0px;
+    margin-top: 35px;
+    margin-left: 52px;
+    gap: 0px;
+    border: 1px solid #2F3E53;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 446px;
+    margin-left: 52px;  
+}
+
+.first-pass-container {
+    display: flex;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    margin-top: 35px;
+    gap: 0px;
+    border-radius: 6px;
+    background-color: #2F3E53;
+    /* border: 1px solid greenyellow; */
+}
+
+.copy-btn {
+    width: 35px; /* Adjust width according to your image size */
+    height: 35px; /* Adjust height according to your image size */
+    background-image: url('images/icon_copy_content.svg');
+    background-color: #10B981;
+    background-size: contain; /* Ensures the image fits within the button */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the button */
+    border: none; /* Removes the default button border */
+    border-radius: 12px;
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+.second-pass-container {
+    display: flex;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    margin-top: 35px;
+    gap: 0px;
+    border-radius: 6px;
+    background-color: #2F3E53;
+    /* border: 1px solid greenyellow; */
+}
+
+#first-pass-div {
+    flex-grow: 3; /* Allows the text to take up available space */
+    height: 32px;
+    margin: 3px 16px;
+    /* border: 1px solid red; */
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    white-space: nowrap; /*Prevents text from wrapping */
+    overflow: hidden; /*Hides any overflow text */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+}
+
+#second-pass-div {
+    flex-grow: 3;
+    height: 32px;
+    margin: 3px 16px;
+    /* border: 1px solid red; */
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#pass-length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 52px;
+    padding: 10px;
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    gap: 10px; /* Adjusts the spacing between the text and input */
+}
+
+#pass-length-container p {
+    width: 220px;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #D5D4D8;
+}
+
+#pass-length-container .length-rec {
+    font-size: 15px; /* Smaller size for this text */
+    font-weight: 400;
+    line-height: 14px;
+    color: #10B981;
+    margin-top: 2px; /* Slight spacing from the text above */
+    margin-left: 0;
+}
+
+#passW-length {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    background-color: #10B981;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    text-align: left;
+    margin-left: 10px; /* Reduces spacing between the input and text */
+}
+
+#toggle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 200px;
+    margin-left: 52px;  
+}
+
+#symbols-toggle {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 39px;
+    margin-top: 15px;
+    padding: 5px 10px 5px 10px;
+    gap: 0px;
+    border-radius: 6px;
+    border: transparent;
+    opacity: 0px;
+    background-color: #10B981;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#numbers-toggle {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 39px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    gap: 0px;
+    border-radius: 6px;
+    border: transparent;
+    opacity: 0px;
+    background-color: #10B981;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#toggle-section p {
+    width: 100px;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a6a6a6;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #273549;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+
+
+
+
+
+
+
+
+
