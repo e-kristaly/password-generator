@@ -8,11 +8,11 @@
             <p>Never use an insecure password again.</p>
             <button id="pass-btn" onclick="generatePasswords()">Generate passwords</button>
             <div id="pass-length-container">
-                <div>
+                <div id="length-text-container">
                     <p>Select password length</p>
                     <p class="length-rec">Between 6 and 15 characters</p>
                 </div>    
-                <input type="number"  id="passW-length" min="6" max="15">
+                <input type="number" id="passW-length" min="6" max="15" inputmode="numeric" pattern="[0-9]">
             </div>
             <div id="toggle-section">
                 <div id="symbols-toggle">

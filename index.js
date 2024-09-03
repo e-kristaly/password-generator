@@ -11,14 +11,20 @@ let passwordLength = document.getElementById("passW-length")
 
 
 function generatePasswords () {
-    let lengthValue = passwordLength.value;
+    let lengthValue = parseInt(passwordLength.value)
     
-    if (!lengthValue) {
-        alert("Please select password length");
+    if (!lengthValue || isNaN(lengthValue) ) {
+        alert("Please select a valid password length");
+        return;
+    }
+
+    if (lengthValue < 6 || lengthValue >15) {
+        alert("Password length must be between 6 and 16 characters");
         return;
     }
     
-    clearPasswords ()
+    clearPasswords ();
+
     if (hasPassword === false) {
         randomPasswords()
     }
