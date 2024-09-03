@@ -72,12 +72,12 @@ function copyPassword(elementId) {
 
     console.log(passwordText); // This will log the password to the console
 
-    // // Copy the password to the clipboard
-    // navigator.clipboard.writeText(passwordText).then(function() {
-    //     console.log('Password copied to clipboard: ' + passwordText);
-    // }).catch(function(error) {
-    //     console.error('Failed to copy password: ', error);
-    // });
+    // Copy the password to the clipboard
+    navigator.clipboard.writeText(passwordText).then(function() {
+        console.log('Password copied to clipboard: ' + passwordText);
+    }).catch(function(error) {
+        console.error('Failed to copy password: ', error);
+    });
 }
 
 
