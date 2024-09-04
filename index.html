@@ -12,7 +12,11 @@
                     <p>Select password length</p>
                     <p class="length-rec">Between 6 and 15 characters</p>
                 </div>    
-                <input type="number" id="passW-length" min="6" max="15" inputmode="numeric" pattern="[0-9]">
+                <div>
+                    <label for="passW-length">Password Length:</label>
+                    <input type="range" id="passW-length" min="6" max="15" value="10" oninput="updateLengthDisplay(this.value)">
+                    <span id="length-display">10</span> characters
+                </div>
             </div>
             <div id="toggle-section">
                 <div id="symbols-toggle">

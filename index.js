@@ -37,6 +37,10 @@ function clearPasswords () {
     hasPassword = false;
 }
 
+function updateLengthDisplay(value) {
+    document.getElementById('length-display').textContent = value;
+}
+
 //Generate two random passwords by the selected length
 function randomPasswords () {
     let lengthValue = passwordLength.value;
