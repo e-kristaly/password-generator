@@ -159,7 +159,7 @@ p {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 350px;
+    max-width: 410px;
     margin-left: 52px;
     padding: 10px;
     /* border: 1px solid rebeccapurple; */
@@ -194,7 +194,49 @@ p {
     align-items: center;
 }
 
-#passW-length {
+#length-selector {
+    direction: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #D5D4D8;
+    margin-left: 10px;
+}
+
+.slider-length {
+    appearance: none;
+    width: 100px;
+    height: 8px;
+    margin: 30px 10px 20px;
+    border-radius: 5px;
+    background: #FFFFFF; /* Default background color */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.slider-length::-webkit-slider-thumb {
+    appearance: none; /* Remove default styling */
+    width: 20px; /* Thumb width */
+    height: 20px; /* Thumb height */
+    border-radius: 50%; /* Rounded thumb */
+    background: #10B981; /* Thumb color */
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#length-display {
+    color: #10B981;
+    margin-left: 10px;
+
+}
+
+/* #passW-length {
     width: 50px;
     height: 30px;
     padding: 5px;
@@ -206,8 +248,8 @@ p {
     border: none;
     border-radius: 16px;
     text-align: left;
-    margin-left: 10px; /* Reduces spacing between the input and text */
-}
+    margin-left: 10px; 
+} */
 
 #toggle-section {
     display: flex;
